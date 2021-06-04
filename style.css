@@ -316,4 +316,10 @@ footer p {
     .portfolioBox {
         width: 80%;
     }
+
+    .portfolioBox:hover {
+    width: 82%;
+    transition: 0.2s ease-in;
+    }
+
 }
