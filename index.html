@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spencer Thompson Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ba0ffd2c2b.js" crossorigin="anonymous"></script>
+
+</head>
+<body>  
+    <header>
+        <div class="wrapper">
+            <nav>
+                <ul class = "wrapper navBar horizontal">
+                    <li class ="navItem"><a href="./index.html">Home</a></li>
+                    <li class ="navItem"><a href="#about">About</a></li>
+                    <li class ="navItem"><a href="#portfolio">Portfolio</a></li>
+                    <li class ="navItem"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="frontPage">
+                <div class="titleBox">
+                    <h1 class="siteTitle myName">Spencer Thompson</h1>
+                    <h1 class="siteTitle">Web Developer</h1>
+                    <p>I am a front-end developer from the world of acting and improv. I build accessible and responsive webistes using my in-depth knowledge of HTML, CSS, JS and React.</p>
+                </div>
+                <div class="socialLinks">
+                    <ul class="socialLinks">
+                        <li>
+                            <span class="sr-only">Twitter</span>
+                            <a href="https://twitter.com/spencter"><i class="fab fa-twitter
+                             socialIcon"></i></a>
+                        </li>
+                        <li>
+                            <span class="sr-only">LinkedIn</span>
+                            <a href="https://www.linkedin.com/in/spencer-thompson-2161a748/"><i class="fab fa-linkedin socialIcon"></i></a>
+                        </li>
+                        <li>
+                            <span class="sr-only">Github</span>
+                            <a href="https://www.github.com/SpennyT"><i class="fab fa-github socialIcon"></i></a>
+                        </li>
+                        
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>  
+    <section id="about">
+        <div class="aboutClass wrapper">
+                <div class="imgBox">
+                    <img class="headshot" src="./assets/cropped-headshot.jpg" alt="A handsome actor in his prime">
+                </div>
+                <div class="aboutText">
+                    <h3>About me</h3>
+                    <h2>Hello! I'm Spencer Thompson</h2>
+                    <h4>Web-developer based in Toronto, Canada</h4>
+                    <p>You might recognize this face (almost certainly not) from docu-dramas such as Hotel Paranormal and Believers. Or perhaps from a commercial for crave frozen dinners? No? That's alright, just take my word for it that I have a few acting credits to my name. My main muse these days is of course code. In my spare time I can be found playing online chess, and cycling throughout the city and beyond!</p>
+                    <a href="./assets/Spencer Thompson Resume 2021.pdf" class="button" target="_blank">Download CV</a>
+                </div>
+    </section> 
+    <section id="portfolio" class="portfolioClass">
+        <div class="wrapper">
+            <h2 class="portfolioHeader">Portfolio</h2>
+            <div class="firstPortfolio">
+                <div class="portfolioBox">
+                    <a href="https://nifty-goodall-444b58.netlify.app/"><img src="./assets/notSoTrivialPursuit.png" alt="Image of not so trivial pursuit website" class="portfolioImg"></a>
+                    <div class="portfolioText">
+                        <h3>Not So Trivial Pursuit</h3>
+                        <p>A React app that uses a trivia API to generate a series of questions based on the user's category, difficulty and number of questions chosen. Games can be saved (stored in firebase). Created with classmates Nicole Wu, Emily Petracco and Seunggi Lee</p>
+                    </div>
+                </div>
+                <div class="portfolioBox">
+                    <a href="https://unruffled-jackson-a72f74.netlify.app/"><img src="./assets/jokeBook.png" alt="Image of joke book website" class="portfolioImg"></a>
+                    <div class="portfolioText">
+                        <h3>Joke Book</h3>
+                        <p>A React app that takes a user's text input (a joke) and stores it in firebase. Also allows for each joke to have a star rating that can be customized.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="secondPortfolio">
+                <div class="portfolioBox">
+                    <a href="https://spennyt.github.io/chess-profiler/"><img src="./assets/chessProfiler.png" alt="Image of chess profiler website" class="portfolioImg"></a>
+                    <div class="portfolioText">
+                        <h3>Chess Profiler</h3>
+                        <p>A javascript app that uses the chess.com API to to display a player's stats. It displays profile info, ratings as well as a more in depth look at recent game data (how many wins by resignation, checkmate etc) </p>
+                    </div>
+                </div>
+                <div class="portfolioBox">
+                    <a href="https://mememaker-imgflip.netlify.app/"><img src="./assets/memeMaker.png" alt="" class="portfolioImg"></a>
+                    <div class="portfolioText">
+                        <h3>Meme Maker</h3>
+                        <p>A javascript app which displays popular memes and allows the user add their own captions, or add random pre-written captions. Made with classmate Sid Lee.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contactClass">
+        <div class="wrapper">
+            <h2 class="contactHeader">Contact</h2>
+            <div class="contactPhoneAndEmail">
+                <div class="phoneContact">
+                    <span class="sr-only">Phone</span>
+                    <i class="fas fa-phone contactIcon"></i>
+                    <h3>Phone Number</h3>
+                    <p>416-550-8930</p>
+                </div>
+                <div class="emailContact">
+                    <span class="sr-only">Phone</span>
+                    <i class="fas fa-envelope contactIcon"></i>
+                    <h3>Email</h3>
+                    <p>spencer.thompson@mail.mcgill.ca</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Created at Juno College 2021 by Spencer Thompson</p>
+    </footer>
+</body>
+</html>
