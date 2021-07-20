@@ -41,6 +41,10 @@ h4 {
     font-weight: bold;
 }
 
+.myTitle {
+color : #ff4f8f;
+}
+
 li a:hover {
 color: #ff4f8f;
 }
@@ -60,14 +64,18 @@ p {
 }
 
 header {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url('assets/improvPhotoDarkened.jpeg');
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.7)), url('assets/SpencerBikeCropped.jpg');
     background-size: cover;
     height: 650px;
     margin-top: 0;
 }
 
-header h1, header a, header p {
+header h1, header p {
     color: #FFFFFF;
+}
+
+header a {
+    color: black;
 }
 
 li {
@@ -189,7 +197,6 @@ img {
 
 .aboutText {
     width: 40%;
-    padding-top: 3%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -237,12 +244,14 @@ img {
 .portfolioHeader, .contactHeader {
     text-align: center;
     margin-bottom: 50px;
+    color: #ff4f8f;
 }
 
 .portfolioText {
     width: 80%;
     text-align: center;
-    margin: auto;
+    /* margin: auto; */
+    /* align-items: flex-start; */
 }
 .contactClass {
     padding: 50px 0;
@@ -250,7 +259,7 @@ img {
 .contactPhoneAndEmail {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .phoneContact, .emailContact {
@@ -259,6 +268,9 @@ img {
     align-items: center;
 }
 
+.phoneContact {
+    padding: 0px 56.5px;
+}
 .contactIcon {
     padding: 20px;
     border-radius: 50%;
@@ -267,6 +279,7 @@ img {
  
 .contactHeader {
     margin-bottom: 50px;
+    color : #ff4f8f;
 }
 
 footer {
